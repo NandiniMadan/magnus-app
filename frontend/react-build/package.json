@@ -1,6 +1,9 @@
 {
   "name": "react-build",
   "version": "0.1.0",
+  "description": "React CRA version 1.0",
+  "author": "Nandini Madan <nandunandana999@gmail.com>",
+  "license": "GNU General Public License v3.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",

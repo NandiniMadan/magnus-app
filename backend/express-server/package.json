@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "description": "Express CEA version 1.0",
   "author": "Nandini Madan <nandunandana999@gmail.com>",
-  "keywords": [],
   "license": "GNU General Public License v3.0",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "scripts": {
-    "start": "./bin/app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/app"
   },
   "dependencies": {
     "ejs": "^3.1.5",
