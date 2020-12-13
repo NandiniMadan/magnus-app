@@ -1,0 +1,68 @@
+.panel_about_client{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    margin:1rem;
+    color:#07285A;
+    border: 2px #07285A solid;
+
+    .image_section{
+        display: flex;
+        flex-direction: column;
+
+        .icons_row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top:1rem;
+        }
+    
+        .img_info_text{
+            text-align: center;
+            margin:0.5rem;
+            font-size:1.2rem;
+            font-weight: 500;
+        }
+    
+        .profile_img{
+            border:0.2rem #07285A solid;        
+        }
+    
+        .profile_pic_icon{
+            color:#07285A;
+        }
+    
+    }
+
+    .details_section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        margin-top:1.5rem;
+        width: 100%;
+
+        .nav_panel_button, .nav_panel_button:focus{
+            width:100%;
+            margin: 1rem 2rem;
+            background-color: white ;
+            color:#07285A;
+            font-weight: 500;
+            font-size: 1.2rem;
+            border:none !important;
+            cursor: pointer;
+
+        }
+
+        .details_icons{
+            position: relative;
+            bottom:2px;
+        }
+    }
+}
