@@ -1,0 +1,23 @@
+$font_stack: 'Roboto Slab', serif,'Lato', san-serif,  'san-serif';
+$primary_bg: #2C3335;
+$font_primary_color: white;
+
+#root{
+  font-family: $font_stack;
+  background-color: $primary_bg !important;
+  color: $font_primary_color;
+}
+
+body {
+    margin: 0;
+    font-family: $font_stack;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
